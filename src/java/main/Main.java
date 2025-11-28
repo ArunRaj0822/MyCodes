@@ -18,10 +18,14 @@ public class Main {
         double avg=0;
         for(Student s:students){
             sum+=s.salary;
+            //mallu
             System.out.println(s);
+            //arun
         }
         avg=sum/n;
+        //chinnu
         System.out.println("avg salary:"+avg);
+        //ahhahs
     }
 }
 
