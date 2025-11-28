@@ -14,9 +14,14 @@ public class Main {
             double salary=sc.nextDouble();
             students[i]=new Student(name,salary);
         }
+        double sum=0;
+        double avg=0;
         for(Student s:students){
+            sum+=s.salary;
             System.out.println(s);
         }
+        avg=sum/n;
+        System.out.println("avg salary:"+avg);
     }
 }
 
